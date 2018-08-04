@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Caches
+.eslintcache
+
+# Extras
+.editorconfig
+.DS_Store
+
+# Builds
+dist
+stats.json

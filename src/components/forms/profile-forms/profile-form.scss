@@ -1,0 +1,55 @@
+@import '../../../assets/variables.scss';
+
+.profile-form {
+
+  &__input-label {
+    margin-top: 1rem;
+  }
+
+  &__select-label {
+    margin-top: 2.5rem;
+  }
+
+  &__button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+
+    &--space-between {
+      justify-content: space-between;
+    }
+  }
+
+  &__error {
+    color: red;
+    padding-top: 1rem;
+  }
+
+  &__reviews {
+    display: flex;
+    flex-direction: column;
+    margin-top: .4rem;
+    align-items: flex-start;
+
+    &__button {
+      align-self: flex-end;
+    }
+
+    &__profile {
+      font-size: 1rem;
+      border: 0;
+
+      &:hover, &:focus {
+        color: red;
+
+        &::after {
+          content: 'remove';
+          color: red;
+          margin-left: .4rem;
+          border-bottom: 1px solid red;
+          margin-bottom: -1px;
+        }
+      }
+    }
+  }
+}

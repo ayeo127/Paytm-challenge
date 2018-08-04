@@ -1,0 +1,17 @@
+.login {
+  width: 38rem;
+  max-width: 90%;
+
+  &__error {
+    margin-top: 1rem;
+    color: red;
+  }
+
+  &__continue {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5%;
+  }
+}

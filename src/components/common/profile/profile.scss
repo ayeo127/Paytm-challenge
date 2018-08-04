@@ -1,0 +1,14 @@
+@import '../card/card.scss';
+
+.profile {
+  @extend .card;
+  margin: 0.7rem 2rem;
+  font-size: 1rem;
+  max-width: 60rem;
+  width: 80%;
+
+  &__role-name {
+    display: flex;
+    margin: 1rem 0;
+  }
+}

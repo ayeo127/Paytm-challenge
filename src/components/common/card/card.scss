@@ -1,0 +1,23 @@
+@import '../../../assets/variables';
+
+.card {
+  background-color: $white;
+  border: .01rem solid $light-grey;
+  border-radius: .4rem;
+  box-shadow: 0 .2rem 1.4rem 0 $light-grey;
+  padding: 2rem;
+
+  &--flex {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    &--col {
+      flex-direction: column;
+    }
+
+    &--row {
+      flex-direction: row;
+    }
+  }
+}

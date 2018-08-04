@@ -1,0 +1,34 @@
+@import '../card/card.scss';
+
+.review {
+  @extend .card;
+  margin: 0.7rem 2rem;
+  font-size: 1rem;
+  max-width: 60rem;
+  width: 80%;
+
+  &__receiver {
+    display: flex;
+    align-items: center;
+    color: $blue-mint;
+  }
+
+  &__description {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0 1rem 2.5rem;
+  }
+
+  &__reviewer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: $mint;
+  }
+
+  &__icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1rem;
+  }
+}

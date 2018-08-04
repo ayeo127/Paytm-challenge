@@ -1,0 +1,12 @@
+.dashboard {
+  &--container {
+    max-width: 100rem;
+    margin: 3.5rem;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 700px) {
+      margin: 1rem;
+    }
+  }
+}
